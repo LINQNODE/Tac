@@ -213,7 +213,7 @@ tacchain# tacchaind tx staking create-validator validatortx.json \
 
 ### ✅ To delegate to ourselves:
 ```
-tacchaind tx staking delegate tacvaloperadresi 9000000000000000000utac \
+tacchaind tx staking delegate tacvaloperadress 9000000000000000000utac \
   --from wallet-name \
   --chain-id tacchain_2391-1 \
   --node http://localhost:59657 \
